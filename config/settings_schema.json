@@ -3,6 +3,8 @@
     "name": "theme_info",
     "theme_name": "HD Shop",
     "theme_version": "1.0.0",
-    "theme_author": "Habib Ullah"
+    "theme_author": "Habib Ullah",
+    "theme_documentation_url": "https://github.com/habib3170/hdshopbd_shopify/",
+    "theme_support_url": "https://github.com/habib3170/hdshopbd_shopify/issues"
   }
 ]
