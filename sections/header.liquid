@@ -1,10 +1,23 @@
-{% assign main_menu_linklist = linklists[section.settings.menu].links %}
-<div class="relative bg-white" x-data="{ mobileMenuOpen: false }">
+{% liquid
+    assign main_menu_linklist = linklists[section.settings.menu].links
+    assign logo = section.settings.header_logo 
+%}
+
+<div class="relative bg-white lg:container lg:mx-auto" x-data="{ mobileMenuOpen: false }">
     <div class="mx-auto px-4 sm:px-6">
     <div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
         <!-- STORE NAME / STORE LOGO -->
         <div class="flex justify-start lg:flex-1 truncate">
-        <h1 class="text-xl font-bold truncate">{{ shop.name }}</h1>
+            {% if logo != null %}
+                <a href="{{ routes.root_url }}">
+                    {{ logo | image_url: width: 100 | image_tag:
+                        class: 'header-logo',
+                        alt: shop.name
+                      }}
+                </a>
+            {% else %}
+                <a href="{{ routes.root_url }}"><h1 class="text-xl font-bold truncate">{{ shop.name }}</h1></a>
+            {% endif %}
         </div>
         <!-- Mobile MENU -->
         <div class="-mr-2 -my-2 ml-3 md:hidden">
@@ -117,6 +130,12 @@
         "name": "Header",
         "settings": [
             {
+                "type": "image_picker",
+                "id": "header_logo",
+                "label": "Select Logo",
+                "info": "Recommended size 200X200px"
+            },
+            {
                 "type": "text",
                 "id": "mobile_menu_title",
                 "label": "Title",
@@ -128,6 +147,11 @@
                 "id": "menu",
                 "label": "Header Menu",
                 "default": "main-menu"
+            }
+        ],
+        "blocks": [
+            {
+              "type": "@app"
             }
         ]
     }
