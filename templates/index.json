@@ -21,7 +21,7 @@
     "featured_collection_UABiqr": {
       "type": "featured-collection",
       "settings": {
-        "section_title": "Collection list",
+        "section_title": "Featured collection",
         "section_description": "LOREM IPSUM DOLOR SIT AMET CONSECTETUR",
         "featured_collection": "womens-wear"
       }
