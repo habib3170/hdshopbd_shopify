@@ -1,5 +1,4 @@
 {
-    "name": "Home Page",
     "sections": {
         "image-banner": {
             "type": "image-banner"
