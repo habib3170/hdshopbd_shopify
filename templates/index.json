@@ -25,10 +25,19 @@
         "section_description": "LOREM IPSUM DOLOR SIT AMET CONSECTETUR",
         "featured_collection": "womens-wear"
       }
+    },
+    "featured_collection_Mj4Fwf": {
+      "type": "featured-collection",
+      "settings": {
+        "section_title": "Collection list",
+        "section_description": "LOREM IPSUM DOLOR SIT AMET CONSECTETUR",
+        "featured_collection": "womans-wear"
+      }
     }
   },
   "order": [
     "image-banner",
-    "featured_collection_UABiqr"
+    "featured_collection_UABiqr",
+    "featured_collection_Mj4Fwf"
   ]
 }
