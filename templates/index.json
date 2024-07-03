@@ -1,11 +1,43 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
-    "sections": {
-        "image-banner": {
-            "type": "image-banner"
-        },
-        "featured-collection": {
-            "type": "featured-collection"
-        }
+  "sections": {
+    "image-banner": {
+      "type": "image-banner",
+      "settings": {
+        "title": "Browse our latest products",
+        "sub_title": "Browse our latest products Browse our latest products.",
+        "button_text": "Shop all",
+        "button_url": ""
+      }
     },
-    "order": ["image-banner", "collection-grid"]
+    "featured_collection_UABiqr": {
+      "type": "featured-collection",
+      "settings": {
+        "section_title": "Women's Wear",
+        "section_description": "LOREM IPSUM DOLOR SIT AMET CONSECTETUR",
+        "featured_collection": "womens-wear"
+      }
+    },
+    "featured_collection_Mj4Fwf": {
+      "type": "featured-collection",
+      "settings": {
+        "section_title": "Man's Wear",
+        "section_description": "LOREM IPSUM DOLOR SIT AMET CONSECTETUR",
+        "featured_collection": "womans-wear"
+      }
+    }
+  },
+  "order": [
+    "image-banner",
+    "featured_collection_UABiqr",
+    "featured_collection_Mj4Fwf"
+  ]
 }
