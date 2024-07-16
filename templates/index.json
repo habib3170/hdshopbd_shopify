@@ -34,11 +34,20 @@
         "section_description": "LOREM IPSUM DOLOR SIT AMET CONSECTETUR",
         "featured_collection": "womans-wear"
       }
+    },
+    "featured_blog_adbKAB": {
+      "type": "featured-blog",
+      "settings": {
+        "section_title": "Blog list",
+        "section_description": "LOREM IPSUM DOLOR SIT AMET CONSECTETUR",
+        "featured_blog": "news"
+      }
     }
   },
   "order": [
     "image-banner",
     "featured_collection_UABiqr",
-    "featured_collection_Mj4Fwf"
+    "featured_collection_Mj4Fwf",
+    "featured_blog_adbKAB"
   ]
 }
