@@ -67,11 +67,19 @@
             "title": "Woman's Wear",
             "collection": "womens-wear"
           }
+        },
+        "collection_item_RDyAWk": {
+          "type": "collection_item",
+          "settings": {
+            "title": "Latest Collection",
+            "collection": "frontpage"
+          }
         }
       },
       "block_order": [
         "collection_item_k4p8yf",
-        "collection_item_zBx8rW"
+        "collection_item_zBx8rW",
+        "collection_item_RDyAWk"
       ],
       "settings": {
         "section_title": "Collection list",
