@@ -11,7 +11,7 @@
       {% for product in collection.products %}
       <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
         <div>
-          <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}" class="h-80 w-72 object-cover rounded-t-xl">
+          <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}" class="h-80 w-72 object-cover rounded-t-xl" width="280" height="320">
           <div class="px-4 py-3 w-72">
             <span class="text-gray-400 mr-3 uppercase text-xs">{{ product.vendor }}</span>
             <p class="text-lg font-bold text-black truncate block capitalize"><a href="{{ product.url }}">{{  product.title }}</a></p>
