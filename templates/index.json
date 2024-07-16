@@ -51,6 +51,25 @@
       "settings": {
       }
     },
+    "collection_list_fQwY6M": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_item_k4p8yf": {
+          "type": "collection_item",
+          "settings": {
+            "title": "Man's Wear",
+            "collection": "mans-wear"
+          }
+        }
+      },
+      "block_order": [
+        "collection_item_k4p8yf"
+      ],
+      "settings": {
+        "section_title": "Collection list",
+        "section_description": "LOREM IPSUM DOLOR SIT AMET CONSECTETUR"
+      }
+    },
     "featured_collection_UABiqr": {
       "type": "featured-collection",
       "settings": {
@@ -88,6 +107,7 @@
   },
   "order": [
     "hero_slider_gVGfLh",
+    "collection_list_fQwY6M",
     "featured_collection_UABiqr",
     "image-banner",
     "featured_collection_Mj4Fwf",
